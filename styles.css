@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+  }
+
+/*  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }  
+
+/* Style for border-box by default for all elements - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model */
+
+
+
+body { 
+    background-color: rgb(212, 210, 187);
+    background-image: url(images/red-circle.jpg);
+}
+
+.list {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-position: inside;
+    margin: 8px;
+}
+
+.section-title {
+    font-weight: lighter;
+    margin: 10px;
+}
+
+img {
+    width: 500px;
+}
+
+div {
+    font-style: italic;
+    background-color: rgb(209, 154, 116);
+    border: 4px solid #555;
+    margin: 12px;
+    border-radius: 20px;
+}
+
+ .page-title {
+    height: 55px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+}
+
+.category-block {
+    height: auto;
+    width: 400px;
+    margin: 12px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container2 {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    height: auto;
+    width: 400px;
+}
+
+.container2 .one {
+    padding: 10px;
+}
+
+.borderless-image {
+    border: none;
+    border-radius: 15px;
+}
+
+.borderless-image two{
+    border: none;
+    border-radius: 15px;
+    flex-shrink: 3;
+}
